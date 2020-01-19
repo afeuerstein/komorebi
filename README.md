@@ -23,16 +23,19 @@ It provides fully customizeable image, video, and web page wallpapers that can b
 
 ![s1](https://raw.githubusercontent.com/cheesecakeufo/komorebi/master/screenshots/collage.jpg)
 
+## Changes I've made:
+The way the date is displayed has changed from "(full weekday name), (full month name) (day as number)" to "(full weekday name), (day as number). (full month name) (year including the century)".
+
 
 ## How do I install Komorebi?
 
-Two ways:
+~~Two ways:~~
 
-### Packaged install (easy)
+### ~~Packaged install (easy)~~
 
-1. Download `Komorebi` from the [Komorebi releases page](https://github.com/cheesecakeufo/komorebi/releases).
-2. Install Komorebi using your favorite package installer (aka. double click on it)
-3. Launch Komorebi!
+1. ~~Download `Komorebi` from the [Komorebi releases page](https://github.com/cheesecakeufo/komorebi/releases).~~
+2. ~~Install Komorebi using your favorite package installer (aka. double click on it)~~
+3. ~~Launch Komorebi!~~
 
 ### Manual Installing (advanced)
 
@@ -63,10 +66,10 @@ You can use either an image, a video, or a web page as a wallpaper and you have 
 
 ## Uninstall
 
-### If you installed a packaged version of Komorebi
+### ~~If you installed a packaged version of Komorebi~~
 
-1. Open Terminal
-2. `sudo apt remove komorebi`
+1. ~~Open Terminal~~
+2. ~~`sudo apt remove komorebi`~~
 
 ### If you manually installed Komorebi
 
@@ -88,7 +91,7 @@ _note: you need to quit and re-open Komorebi after changing this option_
 The latest Komorebi should already have a fix for this issue. If you've already uninstalled Komorebi and would like to fix the issue, simply run this (in the Terminal):
 `curl -s https://raw.githubusercontent.com/cheesecakeufo/komorebi/master/data/Other/postrm | bash -s`
 
-If your issue has not already been reported, please report it *[`here`](https://github.com/cheesecakeufo/komorebi/issues/new)* and I'll try my best to fix them.
+~~If your issue has not already been reported, please report it *[`here`]()* and I'll try my best to fix them.~~
 
 ### Why does Komorebi install files in a macOS-like structure?
 

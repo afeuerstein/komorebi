@@ -136,7 +136,7 @@ namespace Komorebi.OnScreen {
                     timeFormat = "%l:%M %p";
 
                 var glibTime = new GLib.DateTime.now_local().format(timeFormat);
-                var glibDate = new GLib.DateTime.now_local().format("%A, %B %e");
+                var glibDate = new GLib.DateTime.now_local().format("%A, %e. %B %Y");
 
                 timeText.set_markup(@"<span color='$dateTimeColor' font='$dateTimeTimeFont'>$glibTime</span>");
                 dateText.set_markup(@"<span color='$dateTimeColor' font='$dateTimeDateFont'>$glibDate</span>");
