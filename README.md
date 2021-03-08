@@ -31,12 +31,6 @@ The way the date is displayed has changed from "(full weekday name), (full month
 
 ~~Two ways:~~
 
-### ~~Packaged install (easy)~~
-
-1. ~~Download `Komorebi` from the [Komorebi releases page](https://github.com/cheesecakeufo/komorebi/releases).~~
-2. ~~Install Komorebi using your favorite package installer (aka. double click on it)~~
-3. ~~Launch Komorebi!~~
-
 ### Manual Installing (advanced)
 
 Run the following:
@@ -50,6 +44,12 @@ cd komorebi
 mkdir build && cd build
 cmake .. && sudo make install && ./komorebi
 ```
+
+### ~~Packaged install (easy)~~
+
+1. ~~Download `Komorebi` from the [Komorebi releases page](https://github.com/cheesecakeufo/komorebi/releases).~~
+2. ~~Install Komorebi using your favorite package installer (aka. double click on it)~~
+3. ~~Launch Komorebi!~~
 
 ## Change Wallpaper & Desktop Preferences
 To change desktop preferences or your wallpaper, right click anywhere on the desktop to show the menu.
@@ -66,16 +66,16 @@ You can use either an image, a video, or a web page as a wallpaper and you have 
 
 ## Uninstall
 
-### ~~If you installed a packaged version of Komorebi~~
-
-1. ~~Open Terminal~~
-2. ~~`sudo apt remove komorebi`~~
-
 ### If you manually installed Komorebi
 
 1. Open Terminal
 2. `cd komorebi/build`
 3. `sudo make uninstall`
+
+### ~~If you installed a packaged version of Komorebi~~
+
+1. ~~Open Terminal~~
+2. ~~`sudo apt remove komorebi`~~
 
 ## Questions? Issues?
 
